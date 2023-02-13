@@ -14,7 +14,7 @@
 							<img class="rounded-circle" src="assets/img/profile/<?php echo $userFet['img']; ?>" width="24" alt="Admin">
 							<span class="status online"></span>
 						</span>
-						<span><?php echo $userFet['firstname']; ?></span>
+						<strong><?php echo $userFet['lastname']; ?></strong>
                     </a>
 					<div class="dropdown-menu">
 						<a class="dropdown-item" href="user_profile">My Profile</a>
